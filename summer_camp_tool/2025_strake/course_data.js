@@ -1,577 +1,305 @@
 {
     "SummerCamp": [
         {
-            "ClassNum": "SCA9",
-            "Title": "Adult Water Odyssey",
-            "Days": "MTWR",
-            "Fee": 5.0,
-            "AdditionalInfo": "Min age: 18",
+            "ClassNum": "1",
+            "Title": "Animal Science",
+            "Days": "MTWRF",
+            "Fee": null,
+            "AdditionalInfo": [
+                "Prerequisite: Read merit badge book."
+            ],
             "Sections": {
                 "A": [
-                    "PS1",
                     "PS2"
                 ]
-            },
-            "MinAge": "18"
+            }
         },
         {
-            "ClassNum": "SCA10",
-            "Title": "Adult Water Sports",
-            "Days": "MTWR",
-            "Fee": 15.0,
-            "AdditionalInfo": "Min age: 18",
-            "Sections": {
-                "A": [
-                    "PS3"
-                ]
-            },
-            "MinAge": "18"
-        },
-        {
-            "ClassNum": "CON58",
-            "Title": "Advanced Sailing",
-            "Days": "MTWR",
-            "Fee": NaN,
-            "AdditionalInfo": "Min age: 14",
-            "Sections": {
-                "A": [
-                    "PS2",
-                    "PS3"
-                ]
-            },
-            "MinAge": "14"
-        },
-        {
-            "ClassNum": "CON1",
+            "ClassNum": "2",
             "Title": "Animation",
-            "Days": "MTWR",
-            "Fee": NaN,
-            "AdditionalInfo": NaN,
+            "Days": "MTWRF",
+            "Fee": null,
+            "AdditionalInfo": [
+                "Prerequisite: Read merit badge book."
+            ],
             "Sections": {
                 "A": [
-                    "PS1"
-                ],
-                "B": [
-                    "PS2"
-                ],
-                "C": [
+                    "PS1",
                     "PS4"
                 ]
             }
         },
         {
-            "ClassNum": "CON2",
+            "ClassNum": "3",
             "Title": "Archery",
-            "Days": "MTWR",
-            "Fee": 10.0,
-            "AdditionalInfo": "Min age: 11",
+            "Days": "MTWRF",
+            "Fee": null,
+            "AdditionalInfo": [
+                "1.5 periods",
+                "Prerequisites: Print and read Study Guide. Read merit badge book."
+            ],
             "Sections": {
                 "A": [
-                    "PS1"
-                ],
-                "B": [
+                    "PS1",
                     "PS2"
                 ],
-                "C": [
+                "B": [
+                    "PS2",
                     "PS3"
                 ],
-                "D": [
+                "C": [
+                    "PS3",
                     "PS4"
+                ],
+                "D": [
+                    "PS4",
+                    "PS5"
+                ],
+                "E": [
+                    "PS5",
+                    "PSE"
                 ]
-            },
-            "MinAge": "11"
+            }
         },
         {
-            "ClassNum": "CON3",
+            "ClassNum": "4",
             "Title": "Art",
-            "Days": "MTWR",
-            "Fee": 5.0,
-            "AdditionalInfo": NaN,
+            "Days": "MTWRF",
+            "Fee": null,
+            "AdditionalInfo": [
+                "Prerequisite: Read merit badge book.",
+                "Not covered: #6"
+            ],
             "Sections": {
-                "B": [
+                "A": [
                     "PS1"
                 ],
-                "A": [
+                "B": [
                     "PS3"
                 ]
             }
         },
         {
-            "ClassNum": "CON8",
+            "ClassNum": "5",
             "Title": "Astronomy",
-            "Days": "MTWR",
-            "Fee": NaN,
-            "AdditionalInfo": "Min age: 14",
+            "Days": "MTWRF",
+            "Fee": null,
+            "AdditionalInfo": [
+                "Prerequisite: Read merit badge book.",
+                "Includes an evening observation session"
+            ],
             "Sections": {
                 "A": [
                     "PS2"
                 ],
                 "B": [
-                    "PS3"
-                ],
-                "C": [
-                    "PS4"
-                ]
-            },
-            "MinAge": "14"
-        },
-        {
-            "ClassNum": "CON4",
-            "Title": "Automotive Maintenance, Farm Mechanics",
-            "Days": "MTWR",
-            "Fee": 10.0,
-            "AdditionalInfo": NaN,
-            "Sections": {
-                "A": [
-                    "PS1"
-                ],
-                "B": [
-                    "PS2"
-                ],
-                "C": [
                     "PS4"
                 ]
             }
         },
         {
-            "ClassNum": "CON5",
-            "Title": "Backpacking, Hiking",
+            "ClassNum": "6",
+            "Title": "Automotive Maintenance",
             "Days": "MTWRF",
-            "Fee": NaN,
-            "AdditionalInfo": "Min age: 12, Min rank: Second Class",
-            "Sections": {
-                "A": [
-                    "PS1",
-                    "PS2"
-                ]
-            },
-            "MinAge": "12",
-            "MinRank": "Second Class"
+            "Fee": null,
+            "AdditionalInfo": [
+                "Prerequisite: Read merit badge book.",
+                "Not covered: #11"
+            ],
+            "Sections": {}
         },
         {
-            "ClassNum": "CON79",
+            "ClassNum": "7",
             "Title": "Basketry",
-            "Days": "MTWR",
-            "Fee": 10.0,
-            "AdditionalInfo": NaN,
+            "Days": "MTWRF",
+            "Fee": null,
+            "AdditionalInfo": [
+                "Prerequisite: Read merit badge book."
+            ],
             "Sections": {
                 "A": [
-                    "PS1"
-                ],
-                "B": [
                     "PS2"
                 ],
-                "C": [
+                "B": [
                     "PS3"
                 ],
-                "D": [
+                "C": [
                     "PS4"
                 ],
-                "E": [
+                "D": [
                     "PS5"
                 ]
             }
         },
         {
-            "ClassNum": "CON67",
-            "Title": "BSA Stand Up Paddleboarding",
-            "Days": "MTWR",
-            "Fee": 5.0,
-            "AdditionalInfo": NaN,
+            "ClassNum": "8",
+            "Title": "Bird Study",
+            "Days": "MTWRF",
+            "Fee": null,
+            "AdditionalInfo": [
+                "Prerequisite: Read merit badge book."
+            ],
             "Sections": {
                 "A": [
-                    "PS5"
+                    "PS2"
                 ]
             }
         },
         {
-            "ClassNum": "CON9",
+            "ClassNum": "9",
             "Title": "Camping",
-            "Days": "MTWR",
-            "Fee": NaN,
-            "AdditionalInfo": "Min age: 12, Min rank: Second Class",
-            "Sections": {
-                "A": [
-                    "PS1"
-                ],
-                "B": [
-                    "PS2"
-                ],
-                "C": [
-                    "PS3"
-                ],
-                "D": [
-                    "PS4"
-                ],
-                "E": [
-                    "PS5"
-                ]
-            },
-            "MinAge": "12",
-            "MinRank": "Second Class"
-        },
-        {
-            "ClassNum": "CON84",
-            "Title": "Canoe Trek Program",
             "Days": "MTWRF",
-            "Fee": 200.0,
-            "AdditionalInfo": "Min age: 15, Max age: 20, Min rank: First Class",
+            "Fee": null,
+            "AdditionalInfo": [
+                "2 periods",
+                "Prerequisite: Read merit badge book.",
+                "Not covered: #3, 4b, 5e, 7b, 8d, 9"
+            ],
             "Sections": {
                 "A": [
                     "PS1",
-                    "PS2",
-                    "PS3",
-                    "PSA",
-                    "PS4",
-                    "PS5"
+                    "PS2"
+                ],
+                "B": [
+                    "PS5",
+                    "PSE"
                 ]
-            },
-            "MinAge": "15",
-            "MaxAge": "20",
-            "MinRank": "First Class"
+            }
         },
         {
-            "ClassNum": "CON10",
+            "ClassNum": "10",
             "Title": "Canoeing",
-            "Days": "MTWR",
-            "Fee": NaN,
-            "AdditionalInfo": NaN,
-            "Sections": {
-                "A": [
-                    "PS2"
-                ],
-                "B": [
-                    "PS3"
-                ],
-                "C": [
-                    "PS4"
-                ]
-            }
-        },
-        {
-            "ClassNum": "CON11",
-            "Title": "Chemistry, Nuclear Science",
-            "Days": "MTWR",
-            "Fee": NaN,
-            "AdditionalInfo": NaN,
-            "Sections": {
-                "A": [
-                    "PS2"
-                ],
-                "B": [
-                    "PS3"
-                ]
-            }
-        },
-        {
-            "ClassNum": "CON12",
-            "Title": "Chess",
-            "Days": "MTWR",
-            "Fee": NaN,
-            "AdditionalInfo": NaN,
-            "Sections": {
-                "A": [
-                    "PS1"
-                ],
-                "B": [
-                    "PS3"
-                ],
-                "C": [
-                    "PS4"
-                ],
-                "D": [
-                    "PS5"
-                ]
-            }
-        },
-        {
-            "ClassNum": "CON77",
-            "Title": "Citizenship in the Community",
-            "Days": "MTWR",
-            "Fee": NaN,
-            "AdditionalInfo": "Min age: 13, Min rank: Star",
-            "Sections": {
-                "A": [
-                    "PS5"
-                ]
-            },
-            "MinAge": "13",
-            "MinRank": "Star"
-        },
-        {
-            "ClassNum": "CON13",
-            "Title": "Citizenship in the Nation",
-            "Days": "MTWR",
-            "Fee": NaN,
-            "AdditionalInfo": "Min age: 13, Min rank: Star",
-            "Sections": {
-                "A": [
-                    "PS3"
-                ],
-                "B": [
-                    "PS4"
-                ]
-            },
-            "MinAge": "13",
-            "MinRank": "Star"
-        },
-        {
-            "ClassNum": "CON14",
-            "Title": "Citizenship in the World",
-            "Days": "MTWR",
-            "Fee": NaN,
-            "AdditionalInfo": "Min age: 13, Min rank: Star",
-            "Sections": {
-                "A": [
-                    "PS1"
-                ],
-                "B": [
-                    "PS2"
-                ],
-                "C": [
-                    "PS3"
-                ],
-                "D": [
-                    "PS4"
-                ],
-                "E": [
-                    "PS5"
-                ]
-            },
-            "MinAge": "13",
-            "MinRank": "Star"
-        },
-        {
-            "ClassNum": "CON15",
-            "Title": "Communication",
-            "Days": "MTWR",
-            "Fee": NaN,
-            "AdditionalInfo": "Min age: 12, Min rank: First Class",
-            "Sections": {
-                "A": [
-                    "PS1"
-                ],
-                "B": [
-                    "PS2"
-                ],
-                "C": [
-                    "PS3"
-                ],
-                "D": [
-                    "PS4"
-                ],
-                "E": [
-                    "PS5"
-                ]
-            },
-            "MinAge": "12",
-            "MinRank": "First Class"
-        },
-        {
-            "ClassNum": "CON17",
-            "Title": "Cooking",
-            "Days": "MTWR",
-            "Fee": 10.0,
-            "AdditionalInfo": "Min age: 12, Min rank: First Class",
-            "Sections": {
-                "A": [
-                    "PS2"
-                ],
-                "B": [
-                    "PS3"
-                ],
-                "C": [
-                    "PS4"
-                ],
-                "D": [
-                    "PS5"
-                ]
-            },
-            "MinAge": "12",
-            "MinRank": "First Class"
-        },
-        {
-            "ClassNum": "CON70",
-            "Title": "Electricity",
-            "Days": "MTWR",
-            "Fee": NaN,
-            "AdditionalInfo": NaN,
-            "Sections": {
-                "A": [
-                    "PS2"
-                ],
-                "B": [
-                    "PS3"
-                ],
-                "C": [
-                    "PS5"
-                ]
-            }
-        },
-        {
-            "ClassNum": "CON20",
-            "Title": "Emergency Preparedness",
-            "Days": "MTWR",
-            "Fee": NaN,
-            "AdditionalInfo": NaN,
-            "Sections": {
-                "A": [
-                    "PS1"
-                ],
-                "B": [
-                    "PS3"
-                ],
-                "C": [
-                    "PS4"
-                ],
-                "D": [
-                    "PS5"
-                ]
-            }
-        },
-        {
-            "ClassNum": "CON21",
-            "Title": "Engineering",
-            "Days": "MTWR",
-            "Fee": NaN,
-            "AdditionalInfo": NaN,
-            "Sections": {
-                "A": [
-                    "PS1"
-                ]
-            }
-        },
-        {
-            "ClassNum": "CON78",
-            "Title": "Entrepreneurship",
-            "Days": "MTWR",
-            "Fee": NaN,
-            "AdditionalInfo": NaN,
-            "Sections": {
-                "A": [
-                    "PS2"
-                ],
-                "B": [
-                    "PS4"
-                ]
-            }
-        },
-        {
-            "ClassNum": "CON22",
-            "Title": "Environmental Science",
-            "Days": "MTWR",
-            "Fee": NaN,
-            "AdditionalInfo": NaN,
-            "Sections": {
-                "A": [
-                    "PS1"
-                ],
-                "B": [
-                    "PS2"
-                ],
-                "C": [
-                    "PS3"
-                ],
-                "D": [
-                    "PS4"
-                ],
-                "E": [
-                    "PS5"
-                ]
-            }
-        },
-        {
-            "ClassNum": "CON23",
-            "Title": "First Aid",
-            "Days": "MTWR",
-            "Fee": NaN,
-            "AdditionalInfo": NaN,
-            "Sections": {
-                "A": [
-                    "PS1"
-                ],
-                "B": [
-                    "PS2"
-                ],
-                "C": [
-                    "PS3"
-                ],
-                "D": [
-                    "PS4"
-                ],
-                "E": [
-                    "PS5"
-                ]
-            }
-        },
-        {
-            "ClassNum": "CON56",
-            "Title": "First Year Camper (Brazos Buccaneers)",
-            "Days": "MTWR",
-            "Fee": NaN,
-            "AdditionalInfo": NaN,
-            "Sections": {
-                "A": [
-                    "PS1",
-                    "PS2",
-                    "PS3"
-                ]
-            }
-        },
-        {
-            "ClassNum": "CON71",
-            "Title": "Fish and Wildlife Management",
-            "Days": "MTWR",
-            "Fee": NaN,
-            "AdditionalInfo": NaN,
-            "Sections": {
-                "A": [
-                    "PS3"
-                ],
-                "B": [
-                    "PS5"
-                ]
-            }
-        },
-        {
-            "ClassNum": "CON24",
-            "Title": "Fishing",
-            "Days": "MTWR",
-            "Fee": 5.0,
-            "AdditionalInfo": NaN,
-            "Sections": {
-                "A": [
-                    "PS1"
-                ],
-                "B": [
-                    "PS2"
-                ]
-            }
-        },
-        {
-            "ClassNum": "CON62",
-            "Title": "Fly Fishing",
             "Days": "MTWRF",
-            "Fee": 5.0,
-            "AdditionalInfo": NaN,
+            "Fee": null,
+            "AdditionalInfo": [
+                "Prerequisite: Read merit badge book. Must be able to pass a swim test, be physically fit."
+            ],
             "Sections": {
                 "A": [
                     "PS1"
                 ],
                 "B": [
                     "PS2"
+                ],
+                "C": [
+                    "PS3"
+                ],
+                "D": [
+                    "PS4"
                 ]
             }
         },
         {
-            "ClassNum": "CON25",
-            "Title": "Geocaching, Orienteering",
-            "Days": "MTWR",
-            "Fee": NaN,
-            "AdditionalInfo": NaN,
+            "ClassNum": "11",
+            "Title": "Chemistry",
+            "Days": "MTWRF",
+            "Fee": null,
+            "AdditionalInfo": [
+                "Prerequisite: Read merit badge book."
+            ],
             "Sections": {
                 "A": [
+                    "PS1"
+                ],
+                "B": [
                     "PS4"
+                ]
+            }
+        },
+        {
+            "ClassNum": "12",
+            "Title": "Chess",
+            "Days": "MTWRF",
+            "Fee": null,
+            "AdditionalInfo": [
+                "Prerequisite: Read merit badge book.",
+                "Not covered: \u200b#6 (complete after class)"
+            ],
+            "Sections": {
+                "A": [
+                    "PS1"
+                ],
+                "B": [
+                    "PS3"
+                ]
+            }
+        },
+        {
+            "ClassNum": "13",
+            "Title": "Climbing",
+            "Days": "MTWRF",
+            "Fee": null,
+            "AdditionalInfo": [
+                "1.5 periods",
+                "Prerequisite: Read merit badge book, Must be physically able to handle climbing.",
+                "Recommended for older Scouts due to strength required and heights."
+            ],
+            "Sections": {
+                "A": [
+                    "PS1",
+                    "PS2"
+                ],
+                "B": [
+                    "PS3",
+                    "PS4"
+                ]
+            }
+        },
+        {
+            "ClassNum": "14",
+            "Title": "Communication",
+            "Days": "MTWRF",
+            "Fee": null,
+            "AdditionalInfo": [
+                "Prerequisite: Read merit badge book.",
+                "Requirements not covered: #5, 8",
+                "Bring #2, completed workbook",
+                "Limited space for younger scouts, but possible to sign up on-site."
+            ],
+            "Sections": {
+                "A": [
+                    "PS1"
+                ],
+                "B": [
+                    "PS2"
+                ],
+                "C": [
+                    "PS3"
+                ],
+                "D": [
+                    "PS4"
+                ]
+            }
+        },
+        {
+            "ClassNum": "15",
+            "Title": "Cooking",
+            "Days": "MTWRF",
+            "Fee": null,
+            "AdditionalInfo": [
+                "2 periods",
+                "Prerequisite: Read merit badge book.",
+                "Requirements not covered: \u200b #4, 6"
+            ],
+            "Sections": {
+                "A": [
+                    "PS4",
+                    "PS5"
+                ]
+            }
+        },
+        {
+            "ClassNum": "16",
+            "Title": "Digital Technology",
+            "Days": "MTWRF",
+            "Fee": null,
+            "AdditionalInfo": [
+                "Prerequisite: Read merit badge book, bring verification of completing the Cyber Chip",
+                "Bring a tablet or laptop with wifi, merit badge book, email address."
+            ],
+            "Sections": {
+                "A": [
+                    "PS3"
                 ],
                 "B": [
                     "PS5"
@@ -579,14 +307,204 @@
             }
         },
         {
-            "ClassNum": "CON26",
+            "ClassNum": "17",
+            "Title": "Electronics",
+            "Days": "MTWRF",
+            "Fee": null,
+            "AdditionalInfo": [
+                "Prerequisite: Read merit badge book."
+            ],
+            "Sections": {
+                "A": [
+                    "PS1"
+                ],
+                "B": [
+                    "PS3"
+                ]
+            }
+        },
+        {
+            "ClassNum": "18",
+            "Title": "Emergency Preparedness",
+            "Days": "MTWRF",
+            "Fee": null,
+            "AdditionalInfo": [
+                "Prerequisite: Read merit badge book, Completed requirement #1.",
+                "Requirements not covered: #2c, 7a, 9",
+                "Bring: #8b (picture of family emergency pack)"
+            ],
+            "Sections": {
+                "A": [
+                    "PS3"
+                ],
+                "B": [
+                    "PS5"
+                ]
+            }
+        },
+        {
+            "ClassNum": "19",
+            "Title": "Engineering",
+            "Days": "MTWRF",
+            "Fee": null,
+            "AdditionalInfo": [
+                "Prerequisite: Read merit badge book.",
+                "Requirements not covered: #2, 3, 9"
+            ],
+            "Sections": {
+                "A": [
+                    "PS2"
+                ],
+                "B": [
+                    "PS5"
+                ]
+            }
+        },
+        {
+            "ClassNum": "20",
+            "Title": "First Aid",
+            "Days": "MTWRF",
+            "Fee": null,
+            "AdditionalInfo": [
+                "Prerequisite: Read merit badge book.",
+                "Not covered:  #14",
+                "Bring:  #2b1, 2b2"
+            ],
+            "Sections": {
+                "A": [
+                    "PS2"
+                ],
+                "B": [
+                    "PS3"
+                ],
+                "C": [
+                    "PS4"
+                ],
+                "D": [
+                    "PS5"
+                ]
+            }
+        },
+        {
+            "ClassNum": "21",
+            "Title": "Fish and Wildlife Management",
+            "Days": "MTWRF",
+            "Fee": null,
+            "AdditionalInfo": [
+                "Prerequisite: Read merit badge book."
+            ],
+            "Sections": {
+                "A": [
+                    "PS1"
+                ],
+                "B": [
+                    "PS4"
+                ]
+            }
+        },
+        {
+            "ClassNum": "22",
+            "Title": "Fishing",
+            "Days": "MTWRF",
+            "Fee": null,
+            "AdditionalInfo": [
+                "Prerequisite: Read merit badge book.",
+                "Not covered:  #9"
+            ],
+            "Sections": {
+                "A": [
+                    "PS1"
+                ],
+                "B": [
+                    "PS2"
+                ],
+                "C": [
+                    "PS3"
+                ],
+                "D": [
+                    "PS5"
+                ]
+            }
+        },
+        {
+            "ClassNum": "23",
+            "Title": "Forestry",
+            "Days": "MTWRF",
+            "Fee": null,
+            "AdditionalInfo": [
+                "Prerequisite: Read merit badge book."
+            ],
+            "Sections": {
+                "A": [
+                    "PS2"
+                ],
+                "B": [
+                    "PS4"
+                ]
+            }
+        },
+        {
+            "ClassNum": "24",
+            "Title": "Game Design",
+            "Days": "MTWRF",
+            "Fee": null,
+            "AdditionalInfo": [
+                "Prerequisite: Read merit badge book."
+            ],
+            "Sections": {
+                "A": [
+                    "PS1"
+                ],
+                "B": [
+                    "PS3"
+                ],
+                "C": [
+                    "PS4"
+                ],
+                "D": [
+                    "PS5"
+                ]
+            }
+        },
+        {
+            "ClassNum": "25",
+            "Title": "Gardening",
+            "Days": "MTWRF",
+            "Fee": null,
+            "AdditionalInfo": [
+                "Prerequisite: Read merit badge book.",
+                "Requirements not covered: #8"
+            ],
+            "Sections": {}
+        },
+        {
+            "ClassNum": "26",
+            "Title": "Geocaching",
+            "Days": "MTWRF",
+            "Fee": null,
+            "AdditionalInfo": [
+                "2 periods",
+                "Prerequisite: Read merit badge book.",
+                "Requirements not covered: #7"
+            ],
+            "Sections": {
+                "A": [
+                    "PS1",
+                    "PS2"
+                ]
+            }
+        },
+        {
+            "ClassNum": "27",
             "Title": "Geology",
-            "Days": "MTWR",
-            "Fee": NaN,
-            "AdditionalInfo": NaN,
+            "Days": "MTWRF",
+            "Fee": null,
+            "AdditionalInfo": [
+                "Prerequisite: Read merit badge book."
+            ],
             "Sections": {
                 "A": [
-                    "PS2"
+                    "PS3"
                 ],
                 "B": [
                     "PS5"
@@ -594,90 +512,74 @@
             }
         },
         {
-            "ClassNum": "CON34",
-            "Title": "Golf (2024 version), Personal Fitness (2023 version)",
-            "Days": "MTWR",
-            "Fee": 5.0,
-            "AdditionalInfo": "Min age: 13, Min rank: Star",
+            "ClassNum": "28",
+            "Title": "Golf",
+            "Days": "MTWRF",
+            "Fee": null,
+            "AdditionalInfo": [
+                "Prerequisite: Read merit badge book (disk golf)"
+            ],
+            "Sections": {
+                "A": [
+                    "PS4"
+                ],
+                "B": [
+                    "PS5"
+                ]
+            }
+        },
+        {
+            "ClassNum": "29",
+            "Title": "Hiking / Backpacking",
+            "Days": "MTWRF",
+            "Fee": null,
+            "AdditionalInfo": [
+                "3 periods",
+                "Prerequisite: Read merit badge book.",
+                "Bring: hiking boots that are broken-in, backpack",
+                "Not covered: Backpacking #8c, 8d, 10, 11"
+            ],
             "Sections": {
                 "A": [
                     "PS1",
-                    "PS2"
-                ]
-            },
-            "MinAge": "13",
-            "MinRank": "Star"
-        },
-        {
-            "ClassNum": "CON27",
-            "Title": "Indian Lore",
-            "Days": "MTWR",
-            "Fee": 15.0,
-            "AdditionalInfo": NaN,
-            "Sections": {
-                "A": [
-                    "PS2"
-                ],
-                "B": [
-                    "PS5"
+                    "PS2",
+                    "PS3"
                 ]
             }
         },
         {
-            "ClassNum": "CON64",
+            "ClassNum": "30",
+            "Title": "Insect Study",
+            "Days": "MTWRF",
+            "Fee": null,
+            "AdditionalInfo": [
+                "Prerequisite: Read merit badge book."
+            ],
+            "Sections": {
+                "A": [
+                    "PS3"
+                ]
+            }
+        },
+        {
+            "ClassNum": "31",
             "Title": "Instructional Swim",
-            "Days": "MTWR",
-            "Fee": NaN,
-            "AdditionalInfo": NaN,
-            "Sections": {
-                "A": [
-                    "PS1"
-                ],
-                "B": [
-                    "PS3"
-                ],
-                "C": [
-                    "PS4"
-                ]
-            }
+            "Days": "MTWRF",
+            "Fee": null,
+            "AdditionalInfo": [
+                "A class for Scouts who need swimming instruction to pass the Swim Test. Not a merit badge."
+            ],
+            "Sections": {}
         },
         {
-            "ClassNum": "CON83",
-            "Title": "Inventing (2023 version)",
-            "Days": "MTWR",
-            "Fee": NaN,
-            "AdditionalInfo": NaN,
-            "Sections": {
-                "A": [
-                    "PS2"
-                ],
-                "B": [
-                    "PS4"
-                ]
-            }
-        },
-        {
-            "ClassNum": "SCA2",
-            "Title": "IOLS - Introduction to Outdoor Leadership Skills",
-            "Days": "M",
-            "Fee": 10.0,
-            "AdditionalInfo": "Min age: 18",
-            "Sections": {
-                "A": [
-                    "PS3",
-                    "PSA",
-                    "PS4",
-                    "PS5"
-                ]
-            },
-            "MinAge": "18"
-        },
-        {
-            "ClassNum": "CON28",
+            "ClassNum": "32",
             "Title": "Kayaking",
-            "Days": "MTWR",
-            "Fee": NaN,
-            "AdditionalInfo": "Min age: 12",
+            "Days": "MTWRF",
+            "Fee": null,
+            "AdditionalInfo": [
+                "Prerequisite: Read merit badge book, Must be able to pass a swim test, be physically fit",
+                "Recommended for older Scouts"
+            ],
             "Sections": {
                 "A": [
                     "PS1"
@@ -686,250 +588,219 @@
                     "PS2"
                 ],
                 "C": [
-                    "PS3"
-                ],
-                "D": [
-                    "PS4"
-                ],
-                "E": [
                     "PS5"
                 ]
-            },
-            "MinAge": "12"
+            }
         },
         {
-            "ClassNum": "CON80",
+            "ClassNum": "33",
             "Title": "Leatherwork",
-            "Days": "MTWR",
-            "Fee": 15.0,
-            "AdditionalInfo": NaN,
+            "Days": "MTWRF",
+            "Fee": null,
+            "AdditionalInfo": [
+                "Prerequisite: Read merit badge book."
+            ],
             "Sections": {
                 "A": [
                     "PS2"
                 ],
-                "C": [
-                    "PS3"
-                ],
-                "D": [
-                    "PS4"
-                ],
                 "B": [
-                    "PS5"
+                    "PS4"
                 ]
             }
         },
         {
-            "ClassNum": "CON29",
+            "ClassNum": "34",
             "Title": "Lifesaving",
-            "Days": "MTWR",
-            "Fee": NaN,
-            "AdditionalInfo": "Min age: 12",
+            "Days": "MTWRF",
+            "Fee": null,
+            "AdditionalInfo": [
+                "2 periods",
+                "Prerequisite: Read merit badge book, must be able to pass a swim test.",
+                "Bring: long pants, a long-sleeved button-down shirt, shoes",
+                "Recommended for Scouts ages 12+"
+            ],
             "Sections": {
                 "A": [
-                    "PS2",
-                    "PS3"
+                    "PS1",
+                    "PS2"
                 ],
                 "B": [
                     "PS4",
                     "PS5"
                 ]
-            },
-            "MinAge": "12"
+            }
         },
         {
-            "ClassNum": "CON30",
-            "Title": "Mammal Study, Nature",
-            "Days": "MTWR",
-            "Fee": NaN,
-            "AdditionalInfo": NaN,
+            "ClassNum": "35",
+            "Title": "Mammal Study",
+            "Days": "MTWRF",
+            "Fee": null,
+            "AdditionalInfo": [
+                "Prerequisite: Read merit badge book."
+            ],
             "Sections": {
                 "A": [
-                    "PS1"
+                    "PS5"
+                ]
+            }
+        },
+        {
+            "ClassNum": "36",
+            "Title": "Moviemaking",
+            "Days": "MTWRF",
+            "Fee": null,
+            "AdditionalInfo": [
+                "2 periods",
+                "Bring cell phone or video camera and computer with video editing software"
+            ],
+            "Sections": {
+                "A": [
+                    "PS1",
+                    "PS2"
                 ],
                 "B": [
-                    "PS3"
+                    "PS4",
+                    "PS5"
+                ]
+            }
+        },
+        {
+            "ClassNum": "37",
+            "Title": "Multisport",
+            "Days": "MTWRF",
+            "Fee": null,
+            "AdditionalInfo": [
+                "Prerequisite: Read merit badge book.",
+                "Not covered: #5, 7"
+            ],
+            "Sections": {}
+        },
+        {
+            "ClassNum": "38",
+            "Title": "Nature",
+            "Days": "MTWRF",
+            "Fee": null,
+            "AdditionalInfo": [
+                "Prerequisite: Read merit badge book."
+            ],
+            "Sections": {
+                "A": [
+                    "PS2"
                 ],
-                "C": [
+                "B": [
+                    "PS5"
+                ]
+            }
+        },
+        {
+            "ClassNum": "39",
+            "Title": "Oceanography",
+            "Days": "MTWRF",
+            "Fee": null,
+            "AdditionalInfo": [
+                "Prerequisite: Read merit badge book."
+            ],
+            "Sections": {
+                "A": [
+                    "PS3"
+                ]
+            }
+        },
+        {
+            "ClassNum": "40",
+            "Title": "Orienteering",
+            "Days": "MTWRF",
+            "Fee": null,
+            "AdditionalInfo": [
+                "Prerequisite: Read merit badge book.",
+                "Not covered: #10"
+            ],
+            "Sections": {
+                "A": [
                     "PS4"
+                ],
+                "B": [
+                    "PS5"
                 ]
             }
         },
         {
-            "ClassNum": "CON31",
-            "Title": "Metalwork",
-            "Days": "MTWR",
-            "Fee": 10.0,
-            "AdditionalInfo": "Min age: 13",
+            "ClassNum": "41",
+            "Title": "Painting",
+            "Days": "MTWRF",
+            "Fee": null,
+            "AdditionalInfo": [
+                "Prerequisite: Read merit badge book."
+            ],
             "Sections": {
                 "A": [
-                    "PS1"
+                    "PS2"
+                ],
+                "B": [
+                    "PS5"
+                ]
+            }
+        },
+        {
+            "ClassNum": "42",
+            "Title": "Photography",
+            "Days": "MTWRF",
+            "Fee": null,
+            "AdditionalInfo": [
+                "Requirements not covered: #7",
+                "Prerequisite: Read merit badge book",
+                "bring verification of completing the Cyber Chip",
+                "Bring camera, and 12 digital pictures that you are willing to share for #4, 5."
+            ],
+            "Sections": {
+                "A": [
+                    "PS2"
                 ],
                 "B": [
                     "PS3"
-                ],
-                "C": [
-                    "PS5"
-                ]
-            },
-            "MinAge": "13"
-        },
-        {
-            "ClassNum": "CON32",
-            "Title": "Motorboating",
-            "Days": "MTWR",
-            "Fee": 20.0,
-            "AdditionalInfo": NaN,
-            "Sections": {
-                "A": [
-                    "PS1"
-                ],
-                "B": [
-                    "PS3"
-                ],
-                "C": [
-                    "PS5"
                 ]
             }
         },
         {
-            "ClassNum": "CON33",
-            "Title": "Moviemaking, Photography",
-            "Days": "MTWR",
-            "Fee": NaN,
-            "AdditionalInfo": NaN,
-            "Sections": {
-                "A": [
-                    "PS1"
-                ],
-                "B": [
-                    "PS3"
-                ],
-                "C": [
-                    "PS5"
-                ]
-            }
-        },
-        {
-            "ClassNum": "SCA8",
-            "Title": "NRA Range Safety Officer (RSO)",
-            "Days": "M",
-            "Fee": 75.0,
-            "AdditionalInfo": "Min age: 21",
-            "Sections": {
-                "A": [
-                    "PS1",
-                    "PS2",
-                    "PS3",
-                    "PSA",
-                    "PS4",
-                    "PS5"
-                ]
-            },
-            "MinAge": "21"
-        },
-        {
-            "ClassNum": "SCA7",
-            "Title": "NRA Rifle Training: BITS, Basic & Instructor",
-            "Days": "TWR",
-            "Fee": 175.0,
-            "AdditionalInfo": "Min age: 18",
-            "Sections": {
-                "A": [
-                    "PS1",
-                    "PS2",
-                    "PS3",
-                    "PSA",
-                    "PS4",
-                    "PS5"
-                ]
-            },
-            "MinAge": "18"
-        },
-        {
-            "ClassNum": "CON82",
-            "Title": "Oceanography (2013 version)",
-            "Days": "MTWR",
-            "Fee": NaN,
-            "AdditionalInfo": "Min age: 15, Min rank: First Class",
-            "Sections": {
-                "A": [
-                    "PS1"
-                ]
-            },
-            "MinAge": "15",
-            "MinRank": "First Class"
-        },
-        {
-            "ClassNum": "CON81",
-            "Title": "Outpost Adventure",
-            "Days": "TR",
-            "Fee": 15.0,
-            "AdditionalInfo": "Min age: 15",
-            "Sections": {
-                "A": [
-                    "PSA"
-                ]
-            },
-            "MinAge": "15"
-        },
-        {
-            "ClassNum": "SCA4",
-            "Title": "Paddle Craft Safety (PCS)",
-            "Days": "MTWR",
-            "Fee": 5.0,
-            "AdditionalInfo": NaN,
-            "Sections": {
-                "A": [
-                    "PS4",
-                    "PS5"
-                ]
-            }
-        },
-        {
-            "ClassNum": "CON37",
+            "ClassNum": "43",
             "Title": "Pioneering",
-            "Days": "MTWR",
-            "Fee": NaN,
-            "AdditionalInfo": NaN,
-            "Sections": {
-                "A": [
-                    "PS3"
-                ]
-            }
-        },
-        {
-            "ClassNum": "CON38",
-            "Title": "Plumbing",
-            "Days": "MTWR",
-            "Fee": NaN,
-            "AdditionalInfo": NaN,
+            "Days": "MTWRF",
+            "Fee": null,
+            "AdditionalInfo": [
+                "Prerequisite: Read merit badge book."
+            ],
             "Sections": {
                 "A": [
                     "PS4"
-                ]
-            }
-        },
-        {
-            "ClassNum": "CON73",
-            "Title": "Pottery",
-            "Days": "MTWR",
-            "Fee": 10.0,
-            "AdditionalInfo": NaN,
-            "Sections": {
-                "B": [
-                    "PS1"
                 ],
-                "A": [
-                    "PS4"
+                "B": [
+                    "PS5"
                 ]
             }
         },
         {
-            "ClassNum": "CON74",
-            "Title": "Programming",
-            "Days": "MTWR",
-            "Fee": NaN,
-            "AdditionalInfo": NaN,
+            "ClassNum": "44",
+            "Title": "Plant Science",
+            "Days": "MTWRF",
+            "Fee": null,
+            "AdditionalInfo": [
+                "Prerequisite: Read merit badge book."
+            ],
+            "Sections": {
+                "A": [
+                    "PS5"
+                ]
+            }
+        },
+        {
+            "ClassNum": "45",
+            "Title": "Pulp and Paper",
+            "Days": "MTWRF",
+            "Fee": null,
+            "AdditionalInfo": [
+                "Prerequisite: Read merit badge book."
+            ],
             "Sections": {
                 "A": [
                     "PS3"
@@ -940,68 +811,82 @@
             }
         },
         {
-            "ClassNum": "CON54",
-            "Title": "Rank: First Class",
-            "Days": "MTWR",
-            "Fee": NaN,
-            "AdditionalInfo": NaN,
+            "ClassNum": "46",
+            "Title": "Radio",
+            "Days": "MTWRF",
+            "Fee": null,
+            "AdditionalInfo": [
+                "Prerequisite: Read merit badge book."
+            ],
             "Sections": {
                 "A": [
+                    "PS3"
+                ],
+                "B": [
                     "PS5"
                 ]
             }
         },
         {
-            "ClassNum": "CON55",
-            "Title": "Rank: Second Class",
-            "Days": "MTWR",
-            "Fee": NaN,
-            "AdditionalInfo": NaN,
+            "ClassNum": "47",
+            "Title": "Rifle Shooting",
+            "Days": "MTWRF",
+            "Fee": null,
+            "AdditionalInfo": [
+                "1.5 periods",
+                "Prerequisites: Print and read Study Guide, Read merit badge book."
+            ],
             "Sections": {
                 "A": [
-                    "PS4"
-                ]
-            }
-        },
-        {
-            "ClassNum": "CON39",
-            "Title": "Reptile and Amphibian Study",
-            "Days": "MTWR",
-            "Fee": NaN,
-            "AdditionalInfo": NaN,
-            "Sections": {
-                "A": [
-                    "PS4"
-                ]
-            }
-        },
-        {
-            "ClassNum": "CON40",
-            "Title": "Rifle Shooting (Option A Modern Cartridge)",
-            "Days": "MTWR",
-            "Fee": 15.0,
-            "AdditionalInfo": "Min age: 12",
-            "Sections": {
-                "A": [
+                    "PS1",
+                    "PS2"
+                ],
+                "B": [
                     "PS2",
                     "PS3"
                 ],
-                "B": [
+                "C": [
+                    "PS3",
+                    "PS4"
+                ],
+                "D": [
                     "PS4",
                     "PS5"
+                ],
+                "E": [
+                    "PS5",
+                    "PSE"
                 ]
-            },
-            "MinAge": "12"
+            }
         },
         {
-            "ClassNum": "CON41",
+            "ClassNum": "48",
+            "Title": "Robotics",
+            "Days": "MTWRF",
+            "Fee": null,
+            "AdditionalInfo": [
+                "Prerequisite: Read merit badge book."
+            ],
+            "Sections": {
+                "A": [
+                    "PS1"
+                ],
+                "B": [
+                    "PS4"
+                ]
+            }
+        },
+        {
+            "ClassNum": "49",
             "Title": "Rowing",
-            "Days": "MTWR",
-            "Fee": NaN,
-            "AdditionalInfo": NaN,
+            "Days": "MTWRF",
+            "Fee": null,
+            "AdditionalInfo": [
+                "Prerequisite: Read merit badge book, must be able to pass a swim test."
+            ],
             "Sections": {
                 "A": [
-                    "PS1"
+                    "PS4"
                 ],
                 "B": [
                     "PS5"
@@ -1009,175 +894,126 @@
             }
         },
         {
-            "ClassNum": "SCA1",
-            "Title": "Scoutmaster & Assistant Position Specific Training (SALT)",
-            "Days": "M",
-            "Fee": 5.0,
-            "AdditionalInfo": "Min age: 18",
-            "Sections": {
-                "A": [
-                    "PS1",
-                    "PS2"
-                ]
-            },
-            "MinAge": "18"
+            "ClassNum": "50",
+            "Title": "Scouting Heritage",
+            "Days": "MTWRF",
+            "Fee": null,
+            "AdditionalInfo": [
+                "Prerequisite: Read merit badge book.",
+                "Requirements not covered: #4,5,6,7,8"
+            ],
+            "Sections": {}
         },
         {
-            "ClassNum": "CON42",
-            "Title": "Sculpture",
-            "Days": "MTWR",
-            "Fee": 5.0,
-            "AdditionalInfo": NaN,
-            "Sections": {
-                "A": [
-                    "PS1"
-                ],
-                "B": [
-                    "PS3"
-                ]
-            }
-        },
-        {
-            "ClassNum": "CON43",
-            "Title": "Search and Rescue",
-            "Days": "MTWR",
-            "Fee": NaN,
-            "AdditionalInfo": NaN,
-            "Sections": {
-                "A": [
-                    "PS3"
-                ]
-            }
-        },
-        {
-            "ClassNum": "CON44",
+            "ClassNum": "51",
             "Title": "Shotgun Shooting",
-            "Days": "MTWR",
-            "Fee": 50.0,
-            "AdditionalInfo": "Min age: 13",
-            "Sections": {
-                "A": [
-                    "PS2",
-                    "PS3"
-                ],
-                "B": [
-                    "PS4",
-                    "PS5"
-                ]
-            },
-            "MinAge": "13"
-        },
-        {
-            "ClassNum": "CON46",
-            "Title": "Small-Boat Sailing",
-            "Days": "MTWR",
-            "Fee": NaN,
-            "AdditionalInfo": "Min rank: First Class",
-            "Sections": {
-                "A": [
-                    "PS1",
-                    "PS2"
-                ],
-                "B": [
-                    "PS4",
-                    "PS5"
-                ]
-            },
-            "MinRank": "First Class"
-        },
-        {
-            "ClassNum": "CON47",
-            "Title": "Space Exploration",
-            "Days": "MTWR",
-            "Fee": 10.0,
-            "AdditionalInfo": "Min age: 12",
-            "Sections": {
-                "A": [
-                    "PS3"
-                ],
-                "B": [
-                    "PS5"
-                ]
-            },
-            "MinAge": "12"
-        },
-        {
-            "ClassNum": "CON49",
-            "Title": "Swimming",
-            "Days": "MTWR",
-            "Fee": NaN,
-            "AdditionalInfo": NaN,
-            "Sections": {
-                "A": [
-                    "PS1"
-                ],
-                "B": [
-                    "PS2"
-                ],
-                "C": [
-                    "PS3"
-                ],
-                "D": [
-                    "PS4"
-                ],
-                "E": [
-                    "PS5"
-                ]
-            }
-        },
-        {
-            "ClassNum": "SCA3",
-            "Title": "Swimming & Water Rescue (SWR)",
-            "Days": "MTWR",
-            "Fee": 5.0,
-            "AdditionalInfo": "Min age: 15",
-            "Sections": {
-                "A": [
-                    "PS2",
-                    "PS3"
-                ]
-            },
-            "MinAge": "15"
-        },
-        {
-            "ClassNum": "CON59",
-            "Title": "Water Odyssey Adventure",
-            "Days": "MTWR",
-            "Fee": 25.0,
-            "AdditionalInfo": "Min age: 14, Min rank: Life",
-            "Sections": {
-                "A": [
-                    "PS4",
-                    "PS5"
-                ]
-            },
-            "MinAge": "14",
-            "MinRank": "Life"
-        },
-        {
-            "ClassNum": "CON50",
-            "Title": "Water Sports",
-            "Days": "MTWR",
-            "Fee": 30.0,
-            "AdditionalInfo": "Min age: 13",
-            "Sections": {
-                "A": [
-                    "PS1",
-                    "PS2"
-                ],
-                "B": [
-                    "PS4",
-                    "PS5"
-                ]
-            },
-            "MinAge": "13"
-        },
-        {
-            "ClassNum": "CON51",
-            "Title": "Welding",
-            "Days": "MTWR",
+            "Days": "MTWRF",
             "Fee": 20.0,
-            "AdditionalInfo": NaN,
+            "AdditionalInfo": [
+                "1.5 periods",
+                "Prerequisites: bring and read Study Guide, Read merit badge book, must be physically able to handle the recoil of the gun. Might be a partial if Scout is unable to qualify shooting skills.",
+                "Recommended for Scouts ages 13+ due to physical strength required"
+            ],
+            "Sections": {
+                "A": [
+                    "PS1",
+                    "PS2"
+                ],
+                "B": [
+                    "PS2",
+                    "PS3"
+                ],
+                "C": [
+                    "PS3",
+                    "PS4"
+                ],
+                "D": [
+                    "PS4",
+                    "PS5"
+                ],
+                "E": [
+                    "PS5",
+                    "PSE"
+                ]
+            }
+        },
+        {
+            "ClassNum": "52",
+            "Title": "Small-Boat Sailing",
+            "Days": "MTWRF",
+            "Fee": null,
+            "AdditionalInfo": [
+                "Prerequisite: Read merit badge book.",
+                "Not covered: TBD",
+                "Recommended for Scouts ages 13+"
+            ],
+            "Sections": {
+                "A": [
+                    "PS5"
+                ]
+            }
+        },
+        {
+            "ClassNum": "53",
+            "Title": "Soil and Water Conservation",
+            "Days": "MTWRF",
+            "Fee": null,
+            "AdditionalInfo": [
+                "Prerequisite: Read merit badge book, Must be able to read a topo map.",
+                "Requirements not covered: 5a, 6d, 7c"
+            ],
+            "Sections": {}
+        },
+        {
+            "ClassNum": "54",
+            "Title": "Space Exploration",
+            "Days": "MTWRF",
+            "Fee": null,
+            "AdditionalInfo": [
+                "Prerequisite: Read merit badge book."
+            ],
+            "Sections": {
+                "A": [
+                    "PS3"
+                ],
+                "B": [
+                    "PS5"
+                ]
+            }
+        },
+        {
+            "ClassNum": "55",
+            "Title": "Sustainability",
+            "Days": "MTWRF",
+            "Fee": null,
+            "AdditionalInfo": [
+                "Prerequisite: Read merit badge book.",
+                "Not covered: TBD",
+                "Due to limited spots, we are reserving this class for older Scouts. If there are spaces available, we can add younger Scouts onsite."
+            ],
+            "Sections": {
+                "A": [
+                    "PS1"
+                ],
+                "B": [
+                    "PS2"
+                ],
+                "C": [
+                    "PS3"
+                ],
+                "D": [
+                    "PS4"
+                ]
+            }
+        },
+        {
+            "ClassNum": "56",
+            "Title": "Swimming",
+            "Days": "MTWRF",
+            "Fee": null,
+            "AdditionalInfo": [
+                "Prerequisite: Read merit badge book."
+            ],
             "Sections": {
                 "A": [
                     "PS1"
@@ -1197,38 +1033,71 @@
             }
         },
         {
-            "ClassNum": "CON52",
-            "Title": "Wilderness Survival",
-            "Days": "MTWR",
-            "Fee": NaN,
-            "AdditionalInfo": "Min age: 12",
+            "ClassNum": "57",
+            "Title": "Weather",
+            "Days": "MTWRF",
+            "Fee": null,
+            "AdditionalInfo": [
+                "Prerequisite: Read merit badge book."
+            ],
             "Sections": {
                 "A": [
-                    "PS4"
+                    "PS1"
                 ],
                 "B": [
-                    "PS5"
+                    "PS4"
                 ]
-            },
-            "MinAge": "12"
+            }
         },
         {
-            "ClassNum": "CON53",
-            "Title": "Wood Carving",
-            "Days": "MTWR",
-            "Fee": 6.0,
-            "AdditionalInfo": NaN,
+            "ClassNum": "58",
+            "Title": "Wilderness Survival",
+            "Days": "MTWRF",
+            "Fee": null,
+            "AdditionalInfo": [
+                "Prerequisite: Read merit badge book.",
+                "Bring: #5 (survival kit)",
+                "Recommended for ages 12+"
+            ],
             "Sections": {
                 "A": [
-                    "PS2"
+                    "PS3"
+                ],
+                "B": [
+                    "PS4"
                 ],
                 "C": [
-                    "PS4"
+                    "PS5"
+                ]
+            }
+        },
+        {
+            "ClassNum": "59",
+            "Title": "Wood Carving",
+            "Days": "MTWRF",
+            "Fee": null,
+            "AdditionalInfo": [
+                "Prerequisite: Read merit badge book."
+            ],
+            "Sections": {
+                "A": [
+                    "PS3"
                 ],
                 "B": [
                     "PS5"
                 ]
             }
+        },
+        {
+            "ClassNum": "60",
+            "Title": "Woodwork",
+            "Days": "MTWRF",
+            "Fee": null,
+            "AdditionalInfo": [
+                "Prerequisite: Read merit badge book, Completed the Totin' Chip.",
+                "Bring: proof of earning Totin' Chip."
+            ],
+            "Sections": {}
         }
     ],
     "TimeBlocks": {
@@ -1253,25 +1122,25 @@
             "end_time": "11:55:00",
             "value": 4
         },
-        "PSA": {
-            "name": "Add-on Activity",
-            "shortcode": "PSA",
-            "start_time": "15:00:00",
-            "end_time": "15:55:00",
-            "value": 8
-        },
         "PS4": {
             "name": "Program Session 4",
             "shortcode": "PS4",
             "start_time": "12:00:00",
             "end_time": "12:55:00",
-            "value": 16
+            "value": 8
         },
         "PS5": {
             "name": "Program Session 5",
             "shortcode": "PS5",
             "start_time": "14:00:00",
             "end_time": "14:55:00",
+            "value": 16
+        },
+        "PSE": {
+            "name": "Evening",
+            "shortcode": "PSE",
+            "start_time": "15:00:00",
+            "end_time": "15:55:00",
             "value": 32
         }
     }
