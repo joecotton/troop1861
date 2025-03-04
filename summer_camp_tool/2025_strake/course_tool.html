@@ -1,0 +1,1825 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Troop 1861: Camp Constantin Course Selector</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  <script>
+      SummerCamp = [
+        {
+          "ClassNum": "SCA9",
+          "Title": "Adult Water Odyssey",
+          "Days": "MTWR",
+          "Fee": 5.0,
+          "AdditionalInfo": "Min age: 18",
+          "Sections": {
+            "A": [
+              "PS1",
+              "PS2"
+            ]
+          },
+          "MinAge": "18"
+        },
+        {
+          "ClassNum": "SCA10",
+          "Title": "Adult Water Sports",
+          "Days": "MTWR",
+          "Fee": 15.0,
+          "AdditionalInfo": "Min age: 18",
+          "Sections": {
+            "A": [
+              "PS3"
+            ]
+          },
+          "MinAge": "18"
+        },
+        {
+          "ClassNum": "CON58",
+          "Title": "Advanced Sailing",
+          "Days": "MTWR",
+          "Fee": null,
+          "AdditionalInfo": "Min age: 14",
+          "Sections": {
+            "A": [
+              "PS2",
+              "PS3"
+            ]
+          },
+          "MinAge": "14"
+        },
+        {
+          "ClassNum": "CON1",
+          "Title": "Animation",
+          "Days": "MTWR",
+          "Fee": null,
+          "AdditionalInfo": null,
+          "Sections": {
+            "A": [
+              "PS1"
+            ],
+            "B": [
+              "PS2"
+            ],
+            "C": [
+              "PS4"
+            ]
+          }
+        },
+        {
+          "ClassNum": "CON2",
+          "Title": "Archery",
+          "Days": "MTWR",
+          "Fee": 10.0,
+          "AdditionalInfo": "Min age: 11",
+          "Sections": {
+            "A": [
+              "PS1"
+            ],
+            "B": [
+              "PS2"
+            ],
+            "C": [
+              "PS3"
+            ],
+            "D": [
+              "PS4"
+            ]
+          },
+          "MinAge": "11"
+        },
+        {
+          "ClassNum": "CON3",
+          "Title": "Art",
+          "Days": "MTWR",
+          "Fee": 5.0,
+          "AdditionalInfo": null,
+          "Sections": {
+            "B": [
+              "PS1"
+            ],
+            "A": [
+              "PS3"
+            ]
+          }
+        },
+        {
+          "ClassNum": "CON8",
+          "Title": "Astronomy",
+          "Days": "MTWR",
+          "Fee": null,
+          "AdditionalInfo": "Min age: 14",
+          "Sections": {
+            "A": [
+              "PS2"
+            ],
+            "B": [
+              "PS3"
+            ],
+            "C": [
+              "PS4"
+            ]
+          },
+          "MinAge": "14"
+        },
+        {
+          "ClassNum": "CON4",
+          "Title": "Automotive Maintenance, Farm Mechanics",
+          "Days": "MTWR",
+          "Fee": 10.0,
+          "AdditionalInfo": null,
+          "Sections": {
+            "A": [
+              "PS1"
+            ],
+            "B": [
+              "PS2"
+            ],
+            "C": [
+              "PS4"
+            ]
+          }
+        },
+        {
+          "ClassNum": "CON5",
+          "Title": "Backpacking, Hiking",
+          "Days": "MTWRF",
+          "Fee": null,
+          "AdditionalInfo": "Min age: 12, Min rank: Second Class",
+          "Sections": {
+            "A": [
+              "PS1",
+              "PS2"
+            ]
+          },
+          "MinAge": "12",
+          "MinRank": "Second Class"
+        },
+        {
+          "ClassNum": "CON79",
+          "Title": "Basketry",
+          "Days": "MTWR",
+          "Fee": 10.0,
+          "AdditionalInfo": null,
+          "Sections": {
+            "A": [
+              "PS1"
+            ],
+            "B": [
+              "PS2"
+            ],
+            "C": [
+              "PS3"
+            ],
+            "D": [
+              "PS4"
+            ],
+            "E": [
+              "PS5"
+            ]
+          }
+        },
+        {
+          "ClassNum": "CON67",
+          "Title": "BSA Stand Up Paddleboarding",
+          "Days": "MTWR",
+          "Fee": 5.0,
+          "AdditionalInfo": null,
+          "Sections": {
+            "A": [
+              "PS5"
+            ]
+          }
+        },
+        {
+          "ClassNum": "CON9",
+          "Title": "Camping",
+          "Days": "MTWR",
+          "Fee": null,
+          "AdditionalInfo": "Min age: 12, Min rank: Second Class",
+          "Sections": {
+            "A": [
+              "PS1"
+            ],
+            "B": [
+              "PS2"
+            ],
+            "C": [
+              "PS3"
+            ],
+            "D": [
+              "PS4"
+            ],
+            "E": [
+              "PS5"
+            ]
+          },
+          "MinAge": "12",
+          "MinRank": "Second Class"
+        },
+        {
+          "ClassNum": "CON84",
+          "Title": "Canoe Trek Program",
+          "Days": "MTWRF",
+          "Fee": 200.0,
+          "AdditionalInfo": "Min age: 15, Max age: 20, Min rank: First Class",
+          "Sections": {
+            "A": [
+              "PS1",
+              "PS2",
+              "PS3",
+              "PSA",
+              "PS4",
+              "PS5"
+            ]
+          },
+          "MinAge": "15",
+          "MaxAge": "20",
+          "MinRank": "First Class"
+        },
+        {
+          "ClassNum": "CON10",
+          "Title": "Canoeing",
+          "Days": "MTWR",
+          "Fee": null,
+          "AdditionalInfo": null,
+          "Sections": {
+            "A": [
+              "PS2"
+            ],
+            "B": [
+              "PS3"
+            ],
+            "C": [
+              "PS4"
+            ]
+          }
+        },
+        {
+          "ClassNum": "CON11",
+          "Title": "Chemistry, Nuclear Science",
+          "Days": "MTWR",
+          "Fee": null,
+          "AdditionalInfo": null,
+          "Sections": {
+            "A": [
+              "PS2"
+            ],
+            "B": [
+              "PS3"
+            ]
+          }
+        },
+        {
+          "ClassNum": "CON12",
+          "Title": "Chess",
+          "Days": "MTWR",
+          "Fee": null,
+          "AdditionalInfo": null,
+          "Sections": {
+            "A": [
+              "PS1"
+            ],
+            "B": [
+              "PS3"
+            ],
+            "C": [
+              "PS4"
+            ],
+            "D": [
+              "PS5"
+            ]
+          }
+        },
+        {
+          "ClassNum": "CON77",
+          "Title": "Citizenship in the Community",
+          "Days": "MTWR",
+          "Fee": null,
+          "AdditionalInfo": "Min age: 13, Min rank: Star",
+          "Sections": {
+            "A": [
+              "PS5"
+            ]
+          },
+          "MinAge": "13",
+          "MinRank": "Star"
+        },
+        {
+          "ClassNum": "CON13",
+          "Title": "Citizenship in the Nation",
+          "Days": "MTWR",
+          "Fee": null,
+          "AdditionalInfo": "Min age: 13, Min rank: Star",
+          "Sections": {
+            "A": [
+              "PS3"
+            ],
+            "B": [
+              "PS4"
+            ]
+          },
+          "MinAge": "13",
+          "MinRank": "Star"
+        },
+        {
+          "ClassNum": "CON14",
+          "Title": "Citizenship in the World",
+          "Days": "MTWR",
+          "Fee": null,
+          "AdditionalInfo": "Min age: 13, Min rank: Star",
+          "Sections": {
+            "A": [
+              "PS1"
+            ],
+            "B": [
+              "PS2"
+            ],
+            "C": [
+              "PS3"
+            ],
+            "D": [
+              "PS4"
+            ],
+            "E": [
+              "PS5"
+            ]
+          },
+          "MinAge": "13",
+          "MinRank": "Star"
+        },
+        {
+          "ClassNum": "CON15",
+          "Title": "Communication",
+          "Days": "MTWR",
+          "Fee": null,
+          "AdditionalInfo": "Min age: 12, Min rank: First Class",
+          "Sections": {
+            "A": [
+              "PS1"
+            ],
+            "B": [
+              "PS2"
+            ],
+            "C": [
+              "PS3"
+            ],
+            "D": [
+              "PS4"
+            ],
+            "E": [
+              "PS5"
+            ]
+          },
+          "MinAge": "12",
+          "MinRank": "First Class"
+        },
+        {
+          "ClassNum": "CON17",
+          "Title": "Cooking",
+          "Days": "MTWR",
+          "Fee": 10.0,
+          "AdditionalInfo": "Min age: 12, Min rank: First Class",
+          "Sections": {
+            "A": [
+              "PS2"
+            ],
+            "B": [
+              "PS3"
+            ],
+            "C": [
+              "PS4"
+            ],
+            "D": [
+              "PS5"
+            ]
+          },
+          "MinAge": "12",
+          "MinRank": "First Class"
+        },
+        {
+          "ClassNum": "CON70",
+          "Title": "Electricity",
+          "Days": "MTWR",
+          "Fee": null,
+          "AdditionalInfo": null,
+          "Sections": {
+            "A": [
+              "PS2"
+            ],
+            "B": [
+              "PS3"
+            ],
+            "C": [
+              "PS5"
+            ]
+          }
+        },
+        {
+          "ClassNum": "CON20",
+          "Title": "Emergency Preparedness",
+          "Days": "MTWR",
+          "Fee": null,
+          "AdditionalInfo": null,
+          "Sections": {
+            "A": [
+              "PS1"
+            ],
+            "B": [
+              "PS3"
+            ],
+            "C": [
+              "PS4"
+            ],
+            "D": [
+              "PS5"
+            ]
+          }
+        },
+        {
+          "ClassNum": "CON21",
+          "Title": "Engineering",
+          "Days": "MTWR",
+          "Fee": null,
+          "AdditionalInfo": null,
+          "Sections": {
+            "A": [
+              "PS1"
+            ]
+          }
+        },
+        {
+          "ClassNum": "CON78",
+          "Title": "Entrepreneurship",
+          "Days": "MTWR",
+          "Fee": null,
+          "AdditionalInfo": null,
+          "Sections": {
+            "A": [
+              "PS2"
+            ],
+            "B": [
+              "PS4"
+            ]
+          }
+        },
+        {
+          "ClassNum": "CON22",
+          "Title": "Environmental Science",
+          "Days": "MTWR",
+          "Fee": null,
+          "AdditionalInfo": null,
+          "Sections": {
+            "A": [
+              "PS1"
+            ],
+            "B": [
+              "PS2"
+            ],
+            "C": [
+              "PS3"
+            ],
+            "D": [
+              "PS4"
+            ],
+            "E": [
+              "PS5"
+            ]
+          }
+        },
+        {
+          "ClassNum": "CON23",
+          "Title": "First Aid",
+          "Days": "MTWR",
+          "Fee": null,
+          "AdditionalInfo": null,
+          "Sections": {
+            "A": [
+              "PS1"
+            ],
+            "B": [
+              "PS2"
+            ],
+            "C": [
+              "PS3"
+            ],
+            "D": [
+              "PS4"
+            ],
+            "E": [
+              "PS5"
+            ]
+          }
+        },
+        // {
+        //   "ClassNum": "CON56",
+        //   "Title": "First Year Camper (Brazos Buccaneers)",
+        //   "Days": "MTWR",
+        //   "Fee": null,
+        //   "AdditionalInfo": null,
+        //   "Sections": {
+        //     "A": [
+        //       "PS1",
+        //       "PS2",
+        //       "PS3"
+        //     ]
+        //   }
+        // },
+        {
+          "ClassNum": "CON71",
+          "Title": "Fish and Wildlife Management",
+          "Days": "MTWR",
+          "Fee": null,
+          "AdditionalInfo": null,
+          "Sections": {
+            "A": [
+              "PS3"
+            ],
+            "B": [
+              "PS5"
+            ]
+          }
+        },
+        {
+          "ClassNum": "CON24",
+          "Title": "Fishing",
+          "Days": "MTWR",
+          "Fee": 5.0,
+          "AdditionalInfo": null,
+          "Sections": {
+            "A": [
+              "PS1"
+            ],
+            "B": [
+              "PS2"
+            ]
+          }
+        },
+        {
+          "ClassNum": "CON62",
+          "Title": "Fly Fishing",
+          "Days": "MTWRF",
+          "Fee": 5.0,
+          "AdditionalInfo": null,
+          "Sections": {
+            "A": [
+              "PS1"
+            ],
+            "B": [
+              "PS2"
+            ]
+          }
+        },
+        {
+          "ClassNum": "CON25",
+          "Title": "Geocaching, Orienteering",
+          "Days": "MTWR",
+          "Fee": null,
+          "AdditionalInfo": null,
+          "Sections": {
+            "A": [
+              "PS4"
+            ],
+            "B": [
+              "PS5"
+            ]
+          }
+        },
+        {
+          "ClassNum": "CON26",
+          "Title": "Geology",
+          "Days": "MTWR",
+          "Fee": null,
+          "AdditionalInfo": null,
+          "Sections": {
+            "A": [
+              "PS2"
+            ],
+            "B": [
+              "PS5"
+            ]
+          }
+        },
+        {
+          "ClassNum": "CON34",
+          "Title": "Golf (2024 version), Personal Fitness (2023 version)",
+          "Days": "MTWR",
+          "Fee": 5.0,
+          "AdditionalInfo": "Min age: 13, Min rank: Star",
+          "Sections": {
+            "A": [
+              "PS1",
+              "PS2"
+            ]
+          },
+          "MinAge": "13",
+          "MinRank": "Star"
+        },
+        {
+          "ClassNum": "CON27",
+          "Title": "Indian Lore",
+          "Days": "MTWR",
+          "Fee": 15.0,
+          "AdditionalInfo": null,
+          "Sections": {
+            "A": [
+              "PS2"
+            ],
+            "B": [
+              "PS5"
+            ]
+          }
+        },
+        {
+          "ClassNum": "CON64",
+          "Title": "Instructional Swim",
+          "Days": "MTWR",
+          "Fee": null,
+          "AdditionalInfo": null,
+          "Sections": {
+            "A": [
+              "PS1"
+            ],
+            "B": [
+              "PS3"
+            ],
+            "C": [
+              "PS4"
+            ]
+          }
+        },
+        {
+          "ClassNum": "CON83",
+          "Title": "Inventing (2023 version)",
+          "Days": "MTWR",
+          "Fee": null,
+          "AdditionalInfo": null,
+          "Sections": {
+            "A": [
+              "PS2"
+            ],
+            "B": [
+              "PS4"
+            ]
+          }
+        },
+        {
+          "ClassNum": "SCA2",
+          "Title": "IOLS - Introduction to Outdoor Leadership Skills",
+          "Days": "M",
+          "Fee": 10.0,
+          "AdditionalInfo": "Min age: 18",
+          "Sections": {
+            "A": [
+              "PS3",
+              "PSA",
+              "PS4",
+              "PS5"
+            ]
+          },
+          "MinAge": "18"
+        },
+        {
+          "ClassNum": "CON28",
+          "Title": "Kayaking",
+          "Days": "MTWR",
+          "Fee": null,
+          "AdditionalInfo": "Min age: 12",
+          "Sections": {
+            "A": [
+              "PS1"
+            ],
+            "B": [
+              "PS2"
+            ],
+            "C": [
+              "PS3"
+            ],
+            "D": [
+              "PS4"
+            ],
+            "E": [
+              "PS5"
+            ]
+          },
+          "MinAge": "12"
+        },
+        {
+          "ClassNum": "CON80",
+          "Title": "Leatherwork",
+          "Days": "MTWR",
+          "Fee": 15.0,
+          "AdditionalInfo": null,
+          "Sections": {
+            "A": [
+              "PS2"
+            ],
+            "C": [
+              "PS3"
+            ],
+            "D": [
+              "PS4"
+            ],
+            "B": [
+              "PS5"
+            ]
+          }
+        },
+        {
+          "ClassNum": "CON29",
+          "Title": "Lifesaving",
+          "Days": "MTWR",
+          "Fee": null,
+          "AdditionalInfo": "Min age: 12",
+          "Sections": {
+            "A": [
+              "PS2",
+              "PS3"
+            ],
+            "B": [
+              "PS4",
+              "PS5"
+            ]
+          },
+          "MinAge": "12"
+        },
+        {
+          "ClassNum": "CON30",
+          "Title": "Mammal Study, Nature",
+          "Days": "MTWR",
+          "Fee": null,
+          "AdditionalInfo": null,
+          "Sections": {
+            "A": [
+              "PS1"
+            ],
+            "B": [
+              "PS3"
+            ],
+            "C": [
+              "PS4"
+            ]
+          }
+        },
+        {
+          "ClassNum": "CON31",
+          "Title": "Metalwork",
+          "Days": "MTWR",
+          "Fee": 10.0,
+          "AdditionalInfo": "Min age: 13",
+          "Sections": {
+            "A": [
+              "PS1"
+            ],
+            "B": [
+              "PS3"
+            ],
+            "C": [
+              "PS5"
+            ]
+          },
+          "MinAge": "13"
+        },
+        {
+          "ClassNum": "CON32",
+          "Title": "Motorboating",
+          "Days": "MTWR",
+          "Fee": 20.0,
+          "AdditionalInfo": null,
+          "Sections": {
+            "A": [
+              "PS1"
+            ],
+            "B": [
+              "PS3"
+            ],
+            "C": [
+              "PS5"
+            ]
+          }
+        },
+        {
+          "ClassNum": "CON33",
+          "Title": "Moviemaking, Photography",
+          "Days": "MTWR",
+          "Fee": null,
+          "AdditionalInfo": null,
+          "Sections": {
+            "A": [
+              "PS1"
+            ],
+            "B": [
+              "PS3"
+            ],
+            "C": [
+              "PS5"
+            ]
+          }
+        },
+        {
+          "ClassNum": "SCA8",
+          "Title": "NRA Range Safety Officer (RSO)",
+          "Days": "M",
+          "Fee": 75.0,
+          "AdditionalInfo": "Min age: 21",
+          "Sections": {
+            "A": [
+              "PS1",
+              "PS2",
+              "PS3",
+              "PSA",
+              "PS4",
+              "PS5"
+            ]
+          },
+          "MinAge": "21"
+        },
+        {
+          "ClassNum": "SCA7",
+          "Title": "NRA Rifle Training: BITS, Basic & Instructor",
+          "Days": "TWR",
+          "Fee": 175.0,
+          "AdditionalInfo": "Min age: 18",
+          "Sections": {
+            "A": [
+              "PS1",
+              "PS2",
+              "PS3",
+              "PSA",
+              "PS4",
+              "PS5"
+            ]
+          },
+          "MinAge": "18"
+        },
+        {
+          "ClassNum": "CON82",
+          "Title": "Oceanography (2013 version)",
+          "Days": "MTWR",
+          "Fee": null,
+          "AdditionalInfo": "Min age: 15, Min rank: First Class",
+          "Sections": {
+            "A": [
+              "PS1"
+            ]
+          },
+          "MinAge": "15",
+          "MinRank": "First Class"
+        },
+        {
+          "ClassNum": "CON81",
+          "Title": "Outpost Adventure",
+          "Days": "TR",
+          "Fee": 15.0,
+          "AdditionalInfo": "Min age: 15",
+          "Sections": {
+            "A": [
+              "PSA"
+            ]
+          },
+          "MinAge": "15"
+        },
+        {
+          "ClassNum": "SCA4",
+          "Title": "Paddle Craft Safety (PCS)",
+          "Days": "MTWR",
+          "Fee": 5.0,
+          "AdditionalInfo": null,
+          "Sections": {
+            "A": [
+              "PS4",
+              "PS5"
+            ]
+          }
+        },
+        {
+          "ClassNum": "CON37",
+          "Title": "Pioneering",
+          "Days": "MTWR",
+          "Fee": null,
+          "AdditionalInfo": null,
+          "Sections": {
+            "A": [
+              "PS3"
+            ]
+          }
+        },
+        {
+          "ClassNum": "CON38",
+          "Title": "Plumbing",
+          "Days": "MTWR",
+          "Fee": null,
+          "AdditionalInfo": null,
+          "Sections": {
+            "A": [
+              "PS4"
+            ]
+          }
+        },
+        {
+          "ClassNum": "CON73",
+          "Title": "Pottery",
+          "Days": "MTWR",
+          "Fee": 10.0,
+          "AdditionalInfo": null,
+          "Sections": {
+            "B": [
+              "PS1"
+            ],
+            "A": [
+              "PS4"
+            ]
+          }
+        },
+        {
+          "ClassNum": "CON74",
+          "Title": "Programming",
+          "Days": "MTWR",
+          "Fee": null,
+          "AdditionalInfo": null,
+          "Sections": {
+            "A": [
+              "PS3"
+            ],
+            "B": [
+              "PS5"
+            ]
+          }
+        },
+        // {
+        //   "ClassNum": "CON54",
+        //   "Title": "Rank: First Class",
+        //   "Days": "MTWR",
+        //   "Fee": null,
+        //   "AdditionalInfo": null,
+        //   "Sections": {
+        //     "A": [
+        //       "PS5"
+        //     ]
+        //   }
+        // },
+        // {
+        //   "ClassNum": "CON55",
+        //   "Title": "Rank: Second Class",
+        //   "Days": "MTWR",
+        //   "Fee": null,
+        //   "AdditionalInfo": null,
+        //   "Sections": {
+        //     "A": [
+        //       "PS4"
+        //     ]
+        //   }
+        // },
+        {
+          "ClassNum": "CON39",
+          "Title": "Reptile and Amphibian Study",
+          "Days": "MTWR",
+          "Fee": null,
+          "AdditionalInfo": null,
+          "Sections": {
+            "A": [
+              "PS4"
+            ]
+          }
+        },
+        {
+          "ClassNum": "CON40",
+          "Title": "Rifle Shooting (Option A Modern Cartridge)",
+          "Days": "MTWR",
+          "Fee": 15.0,
+          "AdditionalInfo": "Min age: 12",
+          "Sections": {
+            "A": [
+              "PS2",
+              "PS3"
+            ],
+            "B": [
+              "PS4",
+              "PS5"
+            ]
+          },
+          "MinAge": "12"
+        },
+        {
+          "ClassNum": "CON41",
+          "Title": "Rowing",
+          "Days": "MTWR",
+          "Fee": null,
+          "AdditionalInfo": null,
+          "Sections": {
+            "A": [
+              "PS1"
+            ],
+            "B": [
+              "PS5"
+            ]
+          }
+        },
+        {
+          "ClassNum": "SCA1",
+          "Title": "Scoutmaster & Assistant Position Specific Training (SALT)",
+          "Days": "M",
+          "Fee": 5.0,
+          "AdditionalInfo": "Min age: 18",
+          "Sections": {
+            "A": [
+              "PS1",
+              "PS2"
+            ]
+          },
+          "MinAge": "18"
+        },
+        {
+          "ClassNum": "CON42",
+          "Title": "Sculpture",
+          "Days": "MTWR",
+          "Fee": 5.0,
+          "AdditionalInfo": null,
+          "Sections": {
+            "A": [
+              "PS1"
+            ],
+            "B": [
+              "PS3"
+            ]
+          }
+        },
+        {
+          "ClassNum": "CON43",
+          "Title": "Search and Rescue",
+          "Days": "MTWR",
+          "Fee": null,
+          "AdditionalInfo": null,
+          "Sections": {
+            "A": [
+              "PS3"
+            ]
+          }
+        },
+        {
+          "ClassNum": "CON44",
+          "Title": "Shotgun Shooting",
+          "Days": "MTWR",
+          "Fee": 50.0,
+          "AdditionalInfo": "Min age: 13",
+          "Sections": {
+            "A": [
+              "PS2",
+              "PS3"
+            ],
+            "B": [
+              "PS4",
+              "PS5"
+            ]
+          },
+          "MinAge": "13"
+        },
+        {
+          "ClassNum": "CON46",
+          "Title": "Small-Boat Sailing",
+          "Days": "MTWR",
+          "Fee": null,
+          "AdditionalInfo": "Min rank: First Class",
+          "Sections": {
+            "A": [
+              "PS1",
+              "PS2"
+            ],
+            "B": [
+              "PS4",
+              "PS5"
+            ]
+          },
+          "MinRank": "First Class"
+        },
+        {
+          "ClassNum": "CON47",
+          "Title": "Space Exploration",
+          "Days": "MTWR",
+          "Fee": 10.0,
+          "AdditionalInfo": "Min age: 12",
+          "Sections": {
+            "A": [
+              "PS3"
+            ],
+            "B": [
+              "PS5"
+            ]
+          },
+          "MinAge": "12"
+        },
+        {
+          "ClassNum": "CON49",
+          "Title": "Swimming",
+          "Days": "MTWR",
+          "Fee": null,
+          "AdditionalInfo": null,
+          "Sections": {
+            "A": [
+              "PS1"
+            ],
+            "B": [
+              "PS2"
+            ],
+            "C": [
+              "PS3"
+            ],
+            "D": [
+              "PS4"
+            ],
+            "E": [
+              "PS5"
+            ]
+          }
+        },
+        {
+          "ClassNum": "SCA3",
+          "Title": "Swimming & Water Rescue (SWR)",
+          "Days": "MTWR",
+          "Fee": 5.0,
+          "AdditionalInfo": "Min age: 15",
+          "Sections": {
+            "A": [
+              "PS2",
+              "PS3"
+            ]
+          },
+          "MinAge": "15"
+        },
+        {
+          "ClassNum": "CON59",
+          "Title": "Water Odyssey Adventure",
+          "Days": "MTWR",
+          "Fee": 25.0,
+          "AdditionalInfo": "Min age: 14, Min rank: Life",
+          "Sections": {
+            "A": [
+              "PS4",
+              "PS5"
+            ]
+          },
+          "MinAge": "14",
+          "MinRank": "Life"
+        },
+        {
+          "ClassNum": "CON50",
+          "Title": "Water Sports",
+          "Days": "MTWR",
+          "Fee": 30.0,
+          "AdditionalInfo": "Min age: 13",
+          "Sections": {
+            "A": [
+              "PS1",
+              "PS2"
+            ],
+            "B": [
+              "PS4",
+              "PS5"
+            ]
+          },
+          "MinAge": "13"
+        },
+        {
+          "ClassNum": "CON51",
+          "Title": "Welding",
+          "Days": "MTWR",
+          "Fee": 20.0,
+          "AdditionalInfo": null,
+          "Sections": {
+            "A": [
+              "PS1"
+            ],
+            "B": [
+              "PS2"
+            ],
+            "C": [
+              "PS3"
+            ],
+            "D": [
+              "PS4"
+            ],
+            "E": [
+              "PS5"
+            ]
+          }
+        },
+        {
+          "ClassNum": "CON52",
+          "Title": "Wilderness Survival",
+          "Days": "MTWR",
+          "Fee": null,
+          "AdditionalInfo": "Min age: 12",
+          "Sections": {
+            "A": [
+              "PS4"
+            ],
+            "B": [
+              "PS5"
+            ]
+          },
+          "MinAge": "12"
+        },
+        {
+          "ClassNum": "CON53",
+          "Title": "Wood Carving",
+          "Days": "MTWR",
+          "Fee": 6.0,
+          "AdditionalInfo": null,
+          "Sections": {
+            "A": [
+              "PS2"
+            ],
+            "C": [
+              "PS4"
+            ],
+            "B": [
+              "PS5"
+            ]
+          }
+        }
+      ]
+      TimeBlocks = {
+          "PS1": {
+            "name": "Program Session 1",
+              "shortcode": "PS1",
+                "start_time": "09:00:00",
+                  "end_time": "09:55:00",
+                    "value": 1
+          },
+          "PS2": {
+            "name": "Program Session 2",
+              "shortcode": "PS2",
+                "start_time": "10:00:00",
+                  "end_time": "10:55:00",
+                    "value": 2
+          },
+          "PS3": {
+            "name": "Program Session 3",
+              "shortcode": "PS3",
+                "start_time": "11:00:00",
+                  "end_time": "11:55:00",
+                    "value": 4
+          },
+          "PSA": {
+            "name": "Add-on Activity",
+              "shortcode": "PSA",
+                "start_time": "15:00:00",
+                  "end_time": "15:55:00",
+                    "value": 8
+          },
+          "PS4": {
+            "name": "Program Session 4",
+              "shortcode": "PS4",
+                "start_time": "12:00:00",
+                  "end_time": "12:55:00",
+                    "value": 16
+          },
+          "PS5": {
+            "name": "Program Session 5",
+              "shortcode": "PS5",
+                "start_time": "14:00:00",
+                  "end_time": "14:55:00",
+                    "value": 32
+          }
+        }
+  </script>
+  <script>
+    let formatter = new Intl.NumberFormat('en-US', {
+      style: 'currency',
+      currency: 'USD',
+    });
+
+    colorList = {
+      A: 'text-bg-primary',
+      B: 'text-bg-warning',
+      C: 'text-bg-info',
+      D: 'text-bg-secondary',
+      E: 'text-bg-dark',
+    }
+
+    currentCourses=[];
+
+    currentFees = 0.0;
+
+    const sectionClick = new Event("Event");
+    sectionClick.initEvent("sectionClick", true, true);
+
+    document.addEventListener("sectionClick", (evt) =>
+    {
+      tgt = evt.target;
+      if (tgt.classList.contains('disabled'))
+      {
+        evt.stopImmediatePropagation();
+        return;
+      }
+      courseCode = evt.target.parentElement.parentElement.id;
+      section = evt.target.dataset.section;
+      code = courseCode + ':' + section;
+      if (currentCourses.includes(code))
+      {
+        currentCourses = currentCourses.filter(cd => cd!=code);
+      }
+      else
+      {
+        currentCourses.push(code);
+      }
+
+      update_courses(currentCourses);
+    });
+
+    function update_courses(courses)
+    {
+      // Clear all selections
+      clear_table();
+      update_constraints();
+
+      courses.forEach(code =>
+      {
+        courseCode = code.split(':')[0];
+        sectionCode = code.split(':')[1];
+
+        // Set print class
+        courseRow = document.querySelector("tr#" + courseCode);
+        courseRow.classList.add("yesprint");
+
+        // Get this course fee
+        thisCourseFee = document.querySelector("tr#" + courseCode + " .Fee");
+        // console.log(thisCourseFee);
+        if (thisCourseFee.dataset.fee)
+        {
+          currentFees += parseFloat(thisCourseFee.dataset.fee);
+        }
+
+
+        // Find same section (ABCDE) in this class and also toggle
+        // sectionCode = tgt.dataset.section;
+        // courseCode = tgt.parentElement.parentElement.id;
+        thisSectionOtherTimeblocks = document.querySelectorAll("tr#" + courseCode + " span.section.section" + sectionCode);
+        program_slots = [];
+        thisSectionOtherTimeblocks.forEach(block =>
+        {
+          program_slots.push(block.dataset.ps);
+          section_select_arm(block, courseCode);
+        });
+      
+        // Find different section in this class and disable/enable
+        otherSectionOtherTimeblocks = document.querySelectorAll("tr#" + courseCode + " span.section:not(.section" + sectionCode + ")");
+        otherSectionOtherTimeblocks.forEach(block =>
+        {
+          section_disable_arm(block, courseCode);
+        });
+      
+        // Find other classes in this section's timeblock(s) and disable/enable
+        // Expand to disable same section in these courses
+        program_slots.forEach(ps =>
+        {
+          ps_columns = document.querySelectorAll("tr:not(#" + courseCode + ") span.section." + ps + "");
+          ps_columns.forEach(block =>
+          {
+            propogatingCourseCode = block.parentElement.parentElement.id;
+            propogatingSection = block.dataset.section;
+            section_disable_arm(block, courseCode);
+            // Expand
+            thisSectionOtherTimeblocks = document.querySelectorAll("tr#" + propogatingCourseCode + " span.section.section" + propogatingSection + ":not(.disabled)");
+            program_slots = [];
+            thisSectionOtherTimeblocks.forEach(block =>
+            {
+              program_slots.push(block.dataset.ps);
+              if (block != tgt)
+              {
+                section_disable_arm(block, courseCode);
+              }
+            });
+          });
+        });
+
+      });
+
+      document.querySelector("#feeTotal").innerHTML = formatter.format(currentFees);
+
+      currentCourses_s = currentCourses.join(', ');
+      if (currentCourses_s.length>0)
+      {
+        currentCourses_s += ', ' + formatter.format(currentFees);
+      }
+      document.querySelector("#finalSchedule").value = currentCourses_s;
+
+    }
+
+    function clear_table()
+    {
+      table = document.querySelectorAll("#camp-body tr");
+      // Clear all selections
+      allSections = document.querySelectorAll("tr span.section");
+      allSections.forEach(tgt =>
+      {
+        section_select_disarm(tgt);
+        section_disable_disarm(tgt);
+      });
+      currentFees = 0.0;
+
+      table.forEach(tr =>
+      {
+        tr.classList.remove("yesprint");
+        tr.classList.remove('table-danger');
+      });
+    }
+
+    function update_constraints()
+    {
+      scoutsAge = parseInt(document.querySelector("#age").value);
+      scoutsRank = document.querySelector("#rank").value;
+      // console.log(scoutsAge, scoutsRank);
+      table = document.querySelectorAll("#camp-body tr");
+
+      // Apply contraints
+      table.forEach(tr =>
+      {
+        override_check = tr.querySelector("input.SMOverride:checked");
+        if (!override_check)
+        {
+          // console.log(tr.dataset);
+          if ('minAge' in tr.dataset)
+          {
+            if (scoutsAge < parseInt(tr.dataset.minAge))
+            {
+              tr.classList.add('table-danger');
+            }
+          }
+          if ('maxAge' in tr.dataset)
+          {
+            if (scoutsAge > parseInt(tr.dataset.maxAge))
+            {
+              tr.classList.add('table-danger');
+            }
+          }
+          if ('minRank' in tr.dataset)
+          {
+            if (rank_compare(scoutsRank, tr.dataset.minRank) < 0)
+            {
+              tr.classList.add('table-danger');
+            }
+          }
+        }
+
+        courseCode = tr.id;
+        sections = tr.querySelectorAll(".table-danger span.section");
+        sections.forEach(section=>
+        {
+          section_disable_arm(section, courseCode);
+        });
+
+      });
+
+      // redraw_page();
+    }
+
+    function redraw_page()
+    {
+      clear_table();
+      update_constraints();
+      update_courses(currentCourses);
+    }
+
+    function toggle_section_select(target, courseCode)
+    {
+      if (target.classList.contains('selected'))
+      {
+        section_select_disarm(target);
+      }
+      else
+      {
+        section_select_arm(target);
+      }
+    }
+    
+    function section_select_arm(target)
+    {
+      target.classList.remove(target.dataset.sectionClass);
+      target.classList.add('text-bg-success', 'selected');
+    }
+
+    function section_select_disarm(target)
+    {
+      target.classList.remove('text-bg-success', 'selected');
+      target.classList.add(target.dataset.sectionClass);
+    }
+
+    function toggle_section_disable(target, courseCode)
+    {
+      // console.log(target.parentElement.parentElement);
+      if (target.classList.contains('disabled'))
+      {
+        section_disable_disarm(target, courseCode);
+      }
+      else
+      {
+        section_disable_arm(target, courseCode);
+      }
+    }
+
+    function section_disable_arm(target, actionCourseCode)
+    {
+      // override_check = target.parentElement.parentElement.querySelector("input.SMOverride:checked");
+      override_check=false;
+      if (!override_check)
+      {
+        target.classList.remove(target.dataset.sectionClass);
+        target.classList.add('text-bg-danger', 'table-danger', 'disabled');
+        target.dataset.removedBy = courseCode;
+      }
+    }
+
+    function section_disable_disarm(target, actionCourseCode)
+    {
+      target.classList.remove('text-bg-danger', 'disabled');
+      target.classList.add(target.dataset.sectionClass);
+      target.parentElement.parentElement.classList.remove('opacity-25');
+      // target.parentElement.parentElement.classList.remove("noprint");
+      delete target.dataset.removedBy;
+    }
+    
+    
+    window.addEventListener("load", (event) =>
+    {
+      masterTable = document.querySelector('#camp-body');
+      SummerCamp.forEach(element => {
+        row = document.createElement('tr');
+        row.setAttribute('id', element['ClassNum']);
+
+        cell = document.createElement('td');
+        cell.classList.add('ClassNum');
+        cell.appendChild(document.createTextNode(element['ClassNum']));
+        row.appendChild(cell);
+
+        cell = document.createElement('th');
+        cell.classList.add('Title');
+        cell.appendChild(document.createTextNode(element['Title']));
+        row.appendChild(cell);
+
+        cell = document.createElement('td');
+        cell.classList.add('Fee');
+        if (element['Fee']!= null)
+        {
+          cell.setAttribute('data-fee', element['Fee']);
+          cell.appendChild(document.createTextNode(formatter.format(element['Fee'])));
+        }
+        row.appendChild(cell);
+
+        cell = document.createElement('td');
+        cell.classList.add('Days');
+        cell.appendChild(document.createTextNode(element['Days']));
+        row.appendChild(cell);
+
+        // Schedule
+        ps = {};
+        for (i of ['1','2','3','A','4','5'])
+        {
+          cell = document.createElement('td');
+          cell.classList.add('ps', 'PS'+i);
+
+          ps['PS' + i] = cell;
+        }
+        for (section in element['Sections'])
+        {
+          element['Sections'][section].forEach(program_slot => {
+            badge = document.createElement('span');
+            badge.setAttribute('data-section', section);
+            badge.setAttribute('data-ps', program_slot);
+            badge.setAttribute('data-section-class', colorList[section]);
+            badge.classList.add('badge',colorList[section], 'section', 'section'+section, program_slot, 'w-100');
+            badge.onclick = function() {
+              this.dispatchEvent(sectionClick);
+            };
+            badge.appendChild(document.createTextNode(section));
+            ps[program_slot].appendChild(badge);
+          })
+        };
+        for (cell in ps)
+        {
+          row.appendChild(ps[cell]);
+        }
+
+        // Additional Info
+        cell = document.createElement('td');
+        cell.classList.add('Info');
+        // cell.appendChild(document.createTextNode(element['Info']));
+        if ('MinAge' in element)
+        {
+          badge = document.createElement('span');
+          badge.appendChild(document.createTextNode('Min age: '+element['MinAge']));
+          badge.classList.add('badge','text-bg-secondary');
+          cell.appendChild(badge);
+          row.dataset.minAge = element["MinAge"];
+        }
+        if ('MaxAge' in element)
+        {
+          badge = document.createElement('span');
+          badge.appendChild(document.createTextNode('Max age: '+element['MaxAge']));
+          badge.classList.add('badge','text-bg-secondary');
+          cell.appendChild(badge);
+          row.dataset.maxAge = element["MaxAge"];
+        }
+        if ('MinRank' in element)
+        {
+          badge = document.createElement('span');
+          badge.appendChild(document.createTextNode('Min rank: '+element['MinRank']));
+          badge.classList.add('badge','text-bg-secondary');
+          cell.appendChild(badge);
+          row.dataset.minRank = element["MinRank"];
+        }
+        row.appendChild(cell);
+
+        cell = document.createElement('td');
+        cell.classList.add('SMOverride');
+        btn = document.createElement('input');
+        div = document.createElement('div');
+        div.classList.add('form-check');
+                btn.type = 'checkbox';
+        btn.name = 'SMOverride';
+        btn.setAttribute('onclick', 'update_courses(currentCourses);');
+        btn.classList.add('SMOverride', 'form-check-input');
+        div.appendChild(btn);
+        cell.appendChild(div);
+       
+        // cell.appendChild(document.createTextNode(element['ClassNum']));
+        row.appendChild(cell);
+        
+        masterTable.appendChild(row);
+      });
+
+      update_courses(currentCourses);
+    });
+
+    document.addEventListener("DOMContentLoaded", evt =>
+    {
+      age_element = document.querySelector("#age");
+      age_element.addEventListener("change", evt =>
+      {
+        update_courses(currentCourses);
+        // redraw_page();
+      });
+
+      rank_element = document.querySelector("#rank");
+      rank_element.addEventListener("change", evt =>
+      {
+        update_courses(currentCourses);
+        // redraw_page();
+      });
+    });
+
+    function rank_compare(rank1, rank2)
+    {
+      ranks = ['Scout','Tenderfoot','Second Class','First Class','Star','Life','Eagle'];
+      index1 = ranks.indexOf(rank1);
+      index2 = ranks.indexOf(rank2);
+      return index1-index2;
+    }
+
+  </script>
+  <style>
+    .Fee { text-align: right;}
+    @media print {
+      .noprint {
+        display: none !important;
+      }
+      tr:not(.yesprint)
+      {
+        display: none !important;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container-fluid">
+    <h2>Troop 1861: Camp Constantin Course Selector</h2>
+
+    <div class="row my-2 form-group">
+      <label class="col-4 text-end col-form-label">Scout's First Name</label>
+      <div class="col">
+        <input type="text" name="nameFirst" class="form-control">
+      </div>
+    </div>
+
+    <div class="row my-2 form-group">
+      <label class="col-4 text-end col-form-label">Scout's Last Name</label>
+      <div class="col">
+        <input type="text" name="nameLast" class="form-control">
+      </div>
+    </div>
+
+    <div class="row my-2 form-group">
+      <label class="col-4 text-end col-form-label">Parent Name</label>
+      <div class="col">
+        <input type="text" name="parentName" class="form-control">
+      </div>
+    </div>
+
+    <div class="row my-2 form-group">
+      <label class="col-4 text-end col-form-label">Parent Phone</label>
+      <div class="col">
+        <input type="text" name="parentPhone" class="form-control">
+      </div>
+    </div>
+
+    <div class="row my-2 form-group">
+      <label class="col-4 text-end col-form-label">Parent Email</label>
+      <div class="col">
+        <input type="text" name="parentEmail" class="form-control">
+      </div>
+    </div>
+
+    <div class="row my-2 form-group">
+      <label class="col-4 text-end col-form-label">Age when starting camp</label>
+      <div class="col">
+        <select name="age" id="age" class="form-select">
+          <option value="10">10</option>
+          <option value="11">11</option>
+          <option value="12">12</option>
+          <option value="13">13</option>
+          <option value="14">14</option>
+          <option value="15">15</option>
+          <option value="16">16</option>
+          <option value="17">17</option>
+          <option value="18">18</option>
+          <option value="19">19</option>
+          <option value="20">20</option>
+          <option value="21">21</option>
+          <option value="22">22+</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="row my-2">
+      <label class="col-4 text-end col-form-label">Rank when starting camp</label>
+      <div class="col">
+        <select name="rank" id="rank" class="form-select">
+          <option value="Scout">Scout</option>
+          <option value="Tenderfoot">Tenderfoot</option>
+          <option value="Second Class">Second Class</option>
+          <option value="First Class">First Class</option>
+          <option value="Star">Star</option>
+          <option value="Life">Life</option>
+          <option value="Eagle">Eagle</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="row my-2">
+      <div class="col-4 text-end">Extra Fees</div>
+      <div class="col">
+        <span id="feeTotal"></span>
+      </div>
+    </div>
+
+    <div class="row my-2">
+      <div class="col-4 text-end col-form-label">Registration Code</div>
+      <div class="col">
+        <input readonly type="text" id="finalSchedule" class="form-control">
+      </div>
+    </div>
+
+    <div class="row my-2 form-group">
+      <label class="col-4 text-end col-form-label">List some alternate courses as a backup</label>
+      <div class="col">
+        <input type="text" name="backupClasses" class="form-control">
+      </div>
+    </div>
+    <div class="row justify-content-around align-items-center noprint my-2 border border-dark m-4">
+      <div class="col-8">
+        <p">Enter your scout's information (name, age, rank) above, then make your course selections by clicking on available classes. Classes in <span class="badge text-bg-success">Green</span> indicate an active selection. Classes in <span class="badge text-bg-danger">Red</span> indicate an unavailable class, either due to ineligibilty or a time conflict with another selected class.</p>
+        <p class="mb-0">Click the button to the right to produce a registration ticket to print, either on paper or print to a PDF to email.</p>
+      </div>
+      <div class="col-4">
+        <button class="btn btn-success my-2" onclick="print();">Click to Print/Save Ticket to PDF</button>
+        <div class="alert alert-warning my-2">None of the information entered here is submitted to BSA or Troop 1861 or anywhere else unless you save/print the page and send it yourself.</div>
+      </div>
+    </div>
+
+  <table id="camp" class="table table-sm table-striped">
+    <thead class="table-dark">
+      <tr class="yesprint">
+        <th>Class Num</th>
+        <th>Title</th>
+        <th class="text-end">Fee</th>
+        <th>Days</th>
+        <th>Session 1</th>
+        <th>Session 2</th>
+        <th>Session 3</th>
+        <th>Session Extra</th>
+        <th>Session 4</th>
+        <th>Session 5</th>
+        <th>Other Info</th>
+        <th>Request Scoutmaster Override</th>
+      </tr>
+    </thead>
+    <tbody id="camp-body">
+    </tbody>
+
+  </table>
+</div>
+</body>
+</html>
