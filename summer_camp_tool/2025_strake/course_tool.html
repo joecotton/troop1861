@@ -1348,6 +1348,10 @@
             }
           }
         }
+        else
+        {
+            tr.classList.add('override');
+        }
 
         courseCode = tr.id;
         sections = tr.querySelectorAll(".table-danger span.section");
@@ -1408,7 +1412,9 @@
     function section_disable_arm(target, actionCourseCode)
     {
       // override_check = target.parentElement.parentElement.querySelector("input.SMOverride:checked");
-      override_check=false;
+      override_check=target.closest('.override');
+      console.log(target);
+      console.log(override_check);
       if (!override_check)
       {
         target.classList.remove(target.dataset.sectionClass);
