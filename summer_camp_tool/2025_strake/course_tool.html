@@ -117,7 +117,8 @@
                     "Prerequisite: Read merit badge book.",
                     "Not covered: #11"
                 ],
-                "Sections": {}
+                "Sections": {},
+                "hide": true
             },
             {
                 "ClassNum": "C7",
@@ -489,7 +490,8 @@
                     "Prerequisite: Read merit badge book.",
                     "Requirements not covered: #8"
                 ],
-                "Sections": {}
+                "Sections": {},
+                "hide": true
             },
             {
                 "ClassNum": "C26",
@@ -583,7 +585,8 @@
                 "AdditionalInfo": [
                     "A class for Scouts who need swimming instruction to pass the Swim Test. Not a merit badge."
                 ],
-                "Sections": {}
+                "Sections": {},
+                "hide": true
             },
             {
                 "ClassNum": "C32",
@@ -690,7 +693,8 @@
                     "Prerequisite: Read merit badge book.",
                     "Not covered: #5, 7"
                 ],
-                "Sections": {}
+                "Sections": {},
+                "hide": true
             },
             {
                 "ClassNum": "C38",
@@ -917,7 +921,8 @@
                     "Prerequisite: Read merit badge book.",
                     "Requirements not covered: #4,5,6,7,8"
                 ],
-                "Sections": {}
+                "Sections": {},
+                "hide": true
             },
             {
                 "ClassNum": "C51",
@@ -978,7 +983,8 @@
                     "Prerequisite: Read merit badge book, Must be able to read a topo map.",
                     "Requirements not covered: 5a, 6d, 7c"
                 ],
-                "Sections": {}
+                "Sections": {},
+                "hide": true
             },
             {
                 "ClassNum": "C54",
@@ -1115,7 +1121,8 @@
                     "Prerequisite: Read merit badge book, Completed the Totin' Chip.",
                     "Bring: proof of earning Totin' Chip."
                 ],
-                "Sections": {}
+                "Sections": {},
+                "hide": true
             }
         ],
         TimeBlocks= {
@@ -1341,6 +1348,10 @@
             }
           }
         }
+        else
+        {
+            tr.classList.add('override');
+        }
 
         courseCode = tr.id;
         sections = tr.querySelectorAll(".table-danger span.section");
@@ -1401,7 +1412,9 @@
     function section_disable_arm(target, actionCourseCode)
     {
       // override_check = target.parentElement.parentElement.querySelector("input.SMOverride:checked");
-      override_check=false;
+      override_check=target.closest('.override');
+      console.log(target);
+      console.log(override_check);
       if (!override_check)
       {
         target.classList.remove(target.dataset.sectionClass);
@@ -1424,6 +1437,8 @@
     {
       masterTable = document.querySelector('#camp-body');
       SummerCamp.forEach(element => {
+      if (!element.hide)
+      {
         row = document.createElement('tr');
         row.setAttribute('id', element['ClassNum']);
 
@@ -1538,7 +1553,8 @@
         row.appendChild(cell);
         
         masterTable.appendChild(row);
-      });
+      }
+    });
 
       update_courses(currentCourses);
     });
